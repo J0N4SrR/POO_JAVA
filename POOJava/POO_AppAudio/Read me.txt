@@ -1,0 +1,34 @@
+Classe Superclasse: Áudio
+
+Crie uma classe chamada Audio com os seguintes atributos:
+titulo (String): título do áudio.
+duracao (double): duração em minutos.
+totalReproducoes (int): número total de reproduções.
+curtidas (int): número total de curtidas.
+classificacao (int): nota de classificação (1 a 5).
+Crie métodos para:
+Reproduzir o áudio, aumentando o contador de reproduções.
+Curtir o áudio, incrementando o contador de curtidas.
+Obter informações básicas sobre o áudio (título, duração, reproduções, etc.).
+Classes Herdeiras: Músicas e Podcasts
+
+Crie duas classes que herdem de Audio:
+Musica: Inclua um atributo adicional artista (String).
+Podcast: Inclua os atributos adicionais host (String) e convidados (Lista de Strings).
+Encapsulamento
+
+Todos os atributos devem ser privados e acessados/modificados por métodos get e set conforme necessário.
+Os métodos de curtida e reprodução devem ser controlados apenas pela própria classe, impedindo acesso direto aos atributos pelas classes externas.
+Classe Principal
+
+Implemente uma classe principal BibliotecaAudio para:
+Adicionar músicas e podcasts em uma lista de áudios.
+Listar todos os áudios disponíveis.
+Permitir que o usuário curta ou reproduza áudios específicos.
+Requisitos Extras
+
+Implemente um menu interativo para o usuário realizar ações como:
+Adicionar uma música ou podcast.
+Curtir um áudio.
+Reproduzir um áudio.
+Listar todos os áudios.
